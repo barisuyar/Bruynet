@@ -12,6 +12,8 @@ public struct Endpoint {
     public enum HTTPMethod: String {
         case get = "GET"
         case post = "POST"
+        case delete = "DELETE"
+        case put = "PUT"
     }
     var path: String
     var body: Data?
